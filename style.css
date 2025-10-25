@@ -1,0 +1,224 @@
+.first {
+    background-color: #d2e998;
+    height: 30px;
+    width: 100%;
+    font-size: large;
+    padding: 10px 10px;
+    display: flex;
+    gap: 50px; 
+}
+.name {
+    font-style: bold;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+}
+.background {
+     background-color: #defdbb; 
+     float: right;
+     width: 200px;
+     height: 900px;
+}
+.socialmedia {
+  background-color: #d4ec99; 
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex; 
+  justify-content: space-around;
+  font-size: 15px;
+  color: #333;
+    
+}
+body1 {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-box {
+      background-color: #fff;
+      padding: 20px 30px;                          
+      border-radius: 8px;                              
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 300px;
+/* first line is box color, second line is box size in use padding, therrd line is border in crop, fourth line is box shodow code. */
+    }
+
+    .login-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      /* login name is center usein code. */
+    }
+
+    .login-box input[type="email"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .login-box input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .login-box input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  .Resume {
+        text-align: center;
+        font-size: 1cm;
+        font: italic;
+  }
+  .img {
+       position: absolute;
+    width: 200;
+    height: 280px;
+    left: 360px; 
+    bottom: 300px;
+  }
+ .skill {
+          position: absolute;
+          left: 37%;
+          bottom: 60%;
+          font-size: xx-large;
+          font-variant: poppins;        
+  }
+.line {
+  background-color: #333;
+  width: 100%;
+  height: 10%;
+}
+.edu {
+   position: relative;
+    width: 200;
+    height: 450px;
+    left: 80px; 
+    bottom: 100px;
+}
+.Education {
+   position: absolute;
+          left: 37%;
+          bottom: 10%;
+          font-size: xx-large;
+          font-variant: poppins;
+}
+.bottamboder {
+  background-color: #d4ec99; 
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex; 
+  justify-content: space-around;
+  font-size: 15px;
+  color: #333;
+}
+.cont{
+
+  background-color:#d4ec99;
+  width: 70%;
+  height: 25%;
+  right: 12%;
+  padding: 10px 20px;
+  position: fixed;
+  border-radius: 10px;
+}
+.phone {
+          position: relative;
+          left: 75%;
+          bottom: 5%;
+          width: 200px;
+          height: 160px;
+          
+}
+.web1 {
+    position: relative;
+    width: 110px;
+    left: 25%;
+    bottom: 17%;
+}
+.link1 {
+    position: relative;
+    width: 110px;
+    right: 20%;
+    bottom: 17%;
+}
+.number {
+  position: relative;
+  left: 80%;
+  bottom: 25%;
+  font-size: 25px;
+  color: #ffff;
+}
+.insta {
+  position: relative;
+  left: 6%;
+  bottom: 55%;
+  font-size: 25px;
+  color: #ffff;
+}
+.browser {
+  position: relative;
+  left: 23%;
+  bottom: 57%;
+  font-size: 25px;
+  color: #ffff;
+}
+.bio {
+  position: relative;
+  color: #333;
+  left: 16%;
+  font-family: Georgia, serif;
+  font-size: 25px;
+}
+.self {
+  position: absolute;
+  right: 30%;
+  width: 60%;
+  font-size: 110%;
+  top: 32%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+
+}
+.intro {
+  position: absolute;
+  right: 76%;
+  top: 18%;
+}
+.study {
+  position: absolute;
+  text-align: justify;
+  font-size: 150%;
+  width: 40%;
+  left: 50%;
+  top: 80%;
+}
+.learn {
+  position: absolute;
+  text-align: justify;
+  font-size: 150%;
+  width: 40%;
+  left: 45%;
+  top: 30%;
+}
+.address {
+  position: absolute;
+  left: 23%;
+  width: 70%;
+  font-size: 130%;
+  top: 25%;
+}
